@@ -1,0 +1,135 @@
+a {
+    text-decoration: none;
+    color: #5d5d5d
+}
+.price {
+    color: #cc1e05
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.tag {
+    background-color: #ff6291;
+    color: #fff;
+    padding: 6px;
+    border-radius: 2px;
+    margin-right: 6px;
+    display: inline-block
+}
+
+.btn-with-border {
+    background-color: #fff;
+    border: 1px solid #5d5d5d;
+    border-radius: 2px;
+    padding: 8px;
+    display: inline-block
+}
+
+.basket-item__box {
+    margin-bottom: 10px;
+}
+
+.basket-item__foot-group,
+.basket-item__box {
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.basket-item__foot-group,
+.basket-item__head-group {
+    padding-bottom: 10px;
+}
+
+.basket-item__head-group {
+    background-color: rgba(0, 101, 191, 0.1);
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.basket-item__foot-group,
+.basket-item__head-group,
+.basket-item__head-body {
+    padding-top: 10px;
+}
+
+.basket-item__head-group,
+.basket-item__head-body,
+.basket-item__body, 
+.basket-item__price,
+.basket-item__discount,
+.basket-item__foot-group {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.basket-item__head,
+.basket-item__body,
+.basket-item__price,
+.basket-item__discount {
+    margin-bottom: 10px;
+}
+
+.basket-item__img,
+.basket-item__img img {
+    width: 100px;
+    height: 100px;
+}
+.basket-item__footer {
+    border-top: 1px solid #D2D2D2;
+    padding-top: 10px;
+}
+
+.basket-item__price,
+.basket-item__foot-group {
+    display: flex;
+    justify-content: space-between;
+    align-content: center
+}
+
+.basket-item__foot-group {
+    background-color: #f2f2f2;
+}
+
+.has--chidlren-box {
+    margin-bottom: 0;
+}
+.is--chidlren-box {
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+.is--chidlren-box .basket-item__head-body,
+.is--chidlren-box .basket-item__body,
+.is--chidlren-box .basket-item__head-child {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.is--chidlren-box .basket-item__head-child {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    z-index: 0;
+}
+
+.is--chidlren-box .basket-item__head-child::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 92%;
+    height: 1px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D2D2D2;
+}
+
+.is--last-element {
+    margin-top: -10px;
+    border-top: none;
+    border-bottom-width: 2px
+}
